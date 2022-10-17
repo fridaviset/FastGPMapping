@@ -1,4 +1,6 @@
 function [mu, var, training_time, prediction_time]=FloatingDomainGP2D(x,y,x_s,Omega,N_u,sigma_SE,l_SE,r,sigma_y)
+%Copyright (C) 2022 by Frida Viset
+
 x1_u=linspace(Omega(1,1),Omega(1,2),N_u(1)); %Inducing inputs along first dimension
 x2_u=linspace(Omega(2,1),Omega(2,2),N_u(2)); %Inducing inputs along second dimension
 l_u1=x1_u(2)-x1_u(1); %Distance between two inducing inputs along dim 1
