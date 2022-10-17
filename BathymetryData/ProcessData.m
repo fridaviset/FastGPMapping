@@ -1,7 +1,9 @@
-%Copyright (C) 2022 by Frida Viset
-
 clear; close all;
-load('seadepth.mat');
+load('seadepth1.mat');
+load('seadepth2.mat');
+load('seadepth3.mat');
+
+seadepth=[seadepth1; seadepth2; seadepth3];
 
 %Define hyperparameters GP and RR-GP
 Omega=[1 1; size(seadepth)]'; %Domain
