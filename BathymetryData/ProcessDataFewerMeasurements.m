@@ -1,3 +1,5 @@
+%Copyright (C) 2022 by Frida Viset
+
 clear; close all;
 load('seadepth1.mat');
 load('seadepth2.mat');
