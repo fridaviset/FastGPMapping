@@ -1,4 +1,4 @@
-# PredictionDependentBasisFunctions
+# Fast GP Mapping
 
 All results in can be obtained by runnning the script main.m, with exception of the Monte-Carlo repetitions 
 for estimating the time required to train on the bathymetry data.
